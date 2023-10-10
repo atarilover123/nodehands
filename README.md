@@ -23,3 +23,6 @@ This modification uses node to create a server that sends osc messages from the 
 
 Note:
 The point data comes in at x,y coordinates relative to the p5js canvas - 640 * 480. If desired it can be mapped to a usable range in the sketch.js file or by mapping in other software e.g TD, MaxMSP using math and scale objects.  
+Simple TD and Max examples are attached - the mapping of the points to hand in the TD is a little funky so it may need some remapping
+
+For folks that are new to OSC here's a useful [video](https://www.youtube.com/watch?v=AcqC5rRmu3M) on sending signals between TD and Max using OSC 
